@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronish Rajthala</title>
+</head>
+
+<body>
+    <header id="index">
+        <div class="container">
+            <img src="images/logo.jpg" alt="Logo" width="100" height="100">
+            <div class="nav-bar"> </div>
+            <nav>
+                <ul>
+                    <li><a href="#index">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-bar">
+            <form action="search.php" method="get">
+                <input type="text" name="query" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="about-container">
+                <h1>Ronish Rajthala</h1>
+                <img src="images/profile.jpg" alt="Profile Image" width="200">
+                <h1>About Me</h1>
+                <p>My name is Ronish Rajthala. I live in lokanthali, bhaktapur. I am 19 years old. i am currently
+                    studying in MIT.</p>
+                <p>My hobbies are playing football, cricket and watching movies. I also love to travel and explore new
+                    places.
+                </p>
+            </div>
+        </section>
+
+        <h2>My Projects</h2>
+        <h3>Project 1</h3>
+        <p>Description of Project 1.</p>
+        <h3>Project 2</h3>
+        <p>Description of Project 2.</p>
+
+        <h4>Education</h4>
+        <section id="education">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>S.N.</th>
+                        <th>Level</th>
+                        <th>Completion Date</th>
+                        <th>Institution</th>
+                        <th>Grade</th>
+                        <th>Gpa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>School</td>
+                        <td>2020</td>
+                        <td>Modern Boarding Secondary School</td>
+                        <td>A</td>
+                        <td>3.8</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>College</td>
+                        <td>2022</td>
+                        <td>Kanjirowa National School</td>
+                        <td>A</td>
+                        <td>3.7</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>University</td>
+                        <td>2027</td>
+                        <td>MIT</td>
+                        <td>ongoing</td>
+                        <td>ongoing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="skills">
+            <h1>Skills</h1>
+            <dl>
+                <dt>Programming language</dt>
+                <dd>Java, Python, C++</dd>
+                <dt>Database</dt>
+                <dd>MySQL, PostgreSQL</dd>
+                <dt>Tools</dt>
+                <dd>chat gpt, vscode, ms word, ms powerpoint</dd>
+            </dl>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <article>
+                <h2>LMS</h2>
+                <p>Description: A Learning Management System (LMS) for online education. Technologies used:
+                    HTML, CSS, JavaScript, PHP, MySQL
+                </p>
+            </article>
+            <article>
+                <h2>School management project</h2>
+                <p>Description: A system for managing school operations and student information.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <div class="contact-container">
+                <h1>Contact Me</h1>
+                <p>If you have any questions or would like to get in touch, please fill out the form below:</p>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+        <h1>FIND ME ON</h1>
+        <ul>
+            <li><a href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="Ronish" width="100"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="images/insta.jpg" alt="Ronish" width="100"></a></li>
+        </ul>
+    </main>
+</body>
+
+</html>
