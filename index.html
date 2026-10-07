@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>My Portfolio</title>
 </head>
-<body id="top">
 
+<body>
     <header>
-        <div class="container">
+        <div class="header-container">
             <div class="logo">
-                <img src="images/logo.jpg" alt="Ronish rajthala Logo" width="100">
+                <img src="images/logo.jpg" alt="Ronish Rajthala" width="100">
             </div>
-
             <div class="nav-bar">
                 <nav>
                     <ul>
@@ -23,149 +23,130 @@
                         <li><a href="#contact">Contact</a></li>
                         <li><a href="#education">Education</a></li>
                     </ul>
-                 </nav>
-            </div>
 
+                </nav>
+            </div>
             <div class="search-bar">
-                <form action="search.php" method="get">
+                <form>
                     <input type="text" name="query" placeholder="Search...">
                     <button type="submit">Search</button>
-                </form>
             </div>
-         </div>
+            </form>
+        </div>
     </header>
-
     <main>
         <section id="about">
-            <div class="about-container"></div>
+            <div class="about-container">
                 <div class="about-text">
-                <h1>About Me</h1>
-                <h1>Ronish Rajthala</h1>
-                <p>My name is Ronish Rajthala. I live in lokanthali, bhaktapur. I am 19 years old. i am currently
-                    studying in MIT
-                    My hobbies are playing football, cricket and watching movies. I also love to travel and explore new
-                    places.</p>
+                    <h1>About Me</h1>
+                    <h2>Ronish Rajthala</h2>
+
+                    <p>My name is Ronish Rajthala. i am a student of MIT college. I am currently pursuing my bachelor's
+                        degree in computer science and engineering. I have a strong interest in web development and
+                        programming. I am always eager to learn new technologies and improve my skills.
+                    </p>
                 </div>
-                    <img src="images/profile.jpg" alt="Profile" Height="80" width="80" style="text-align: right">
-        
+                <img src="images/profile.jpg" alt="Profile Image">
             </div>
         </section>
-                    
+
         <section id="education">
             <div class="education-container">
-                <h1>Education</h1>
-                    <table border="1">
-                        <thead>
-                            <tr>
-                                <th>S.N.</th>
-                                <th>Level</th>
-                                <th>Completion Date</th>
-                                <th>Institution</th>
-                                <th>Grade</th>
-                                <th>Gpa</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>School</td>
-                                <td>2020</td>
-                                <td>Modern Boarding Secondary School</td>
-                                <td>A</td>
-                                <td>3.8</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>College</td>
-                                <td>2022</td>
-                                <td>Kanjirowa National School</td>
-                                <td>A</td>
-                                <td>3.7</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>University</td>
-                                <td>2027</td>
-                                <td>MIT</td>
-                                <td>ongoing</td>
-                                <td>ongoing</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <h2>Education</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>S.N.</th>
+                            <th>Level</th>
+                            <th>Completion Date</th>
+                            <th>G.P.A.</th>
+                            <th>Grade</th>
+                            <th>Institution Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>School</td>
+                            <td>2023</td>
+                            <td>3.70</td>
+                            <td>A+</td>
+                            <td>Modern boarding higher secondary school</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>College</td>
+                            <td>2025</td>
+                            <td>4.0</td>
+                            <td>A+</td>
+                            <td>KNS</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>University</td>
+                            <td>2027</td>
+                            <td>ongoing</td>
+                            <td>ongoing</td>
+                            <td>MIT</td>
+
+                </table>
             </div>
         </section>
 
-                 <section id="skills">
-                    <div class="skills-container">
-                        <h1>Skills</h1>
-                        <dl>
-                            <dt>Programming language</dt>
-                            <dd>Java, Python, C++</dd>
-                            <dt>Database</dt>
-                            <dd>MySQL, PostgreSQL</dd>
-                            <dt>Tools</dt>
-                            <dd>chat gpt, vscode, ms word, ms powerpoint</dd>
-                            <dt>frameworks</dt>
-                            <dd>django, Flask</dd>
-                        </dl>
-                    </div>
-                </section>
-                    <section id="projects">
-                        <div class="projects-container">
-                        <h1>Projects</h1>
-                        <article>
-                            <h2>LMS</h2>
-                            <p>Description: A Learning Management System (LMS) for online education.Technologies used:
-                                HTML, CSS, JavaScript, PHP, MySQL
-                            </p>
-                        </article>
-                        <article>
-                            <h2>School management project</h2>
-                            <p>Description: A system for managing school operations and student information.</p>
-                        </article>
-                        </div>                
-                    </section>
-                    <section id="contact">
-                        <div class="contact-container">
-                            <h1>Contact Me</h1>
-                            <p>If you have any questions or would like to get in touch, please fill out the form below:</p>
-                        
-                            <p>
-                            <a href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="Ronish"
-                                    width="100"></a>
-                            <a href="https://www.instagram.com/"><img src="images/insta.jpg" alt="Ronish"
-                                    width="100"></a>
-                                    <p >
-                                     <form action="submit_form.php" method="post">
-                    <p>
-                        <label for="Username">Name:</label>
-                        <input type="text" id="Username" name="Username" required>
+        <section id="skills">
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <dl>
+                    <dt>Programming language</dt>
+                    <dd>Java, Python, C++</dd>
+                    <dt>Database</dt>
+                    <dd>MySQL, PostgreSQL</dd>
+                    <dt>Tools</dt>
+                    <dd>vscode, ms word, ms powerpoint</dd>
+                </dl>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="projects-container">
+                <h2>Projects</h2>
+                <article>
+                    <h2>Personal Portfolio Website</h2>
+                    <p>Description: A responsive personal portfolio website to showcase my skills and projects.
+                        Technologies used: HTML, CSS, JavaScript</p>
+                </article>
+                <article>
+                    <h2>Banking Management System</h2>
+                    <p>Description: A system for managing banking operations and customer information.
                     </p>
+                </article>
+            </div>
+        </section>
+       
 
-                    <p>
-                        <label for="Email">Email:</label>
-                        <input type="email" id="Email" name="Email" required>
-                    </p>
-
-                    <p>
-                        <label for="message">Message:</label><br>
-                        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-                    </p>
-
-                    <p>
-                        <input type="submit" value="Submit">
-                    </p>
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    <input type="submit" value="Submit">
                 </form>
-            </div>
         </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2026 Ronish Rajthala. All rights reserved.</p>
-    </footer>
+
+        <ul>
+            <h2>FIND ME ON</h2>
+            <a href="https://www.google.com/" target="_blank">
+                <img src="images/google.png" alt="Google" width="50">
+                <a href="https://www.whatsapp.com/" target="_blank">
+                    <img src="images/whatsapp.png" alt="whatsapp" width="50">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/facebook.jpg" alt="facebook" width="50">
 
 </body>
+
 </html>
-
-
-
